@@ -10,10 +10,10 @@ package com.mycompany.welcome;
  */
 public class Soal1 {
     public static void main(String[] args){
-        int angka1 = 125;
-        int angka2 = 6;
-        int hasil = (int) (angka1+angka2);
+        byte angka1 = 125;
+        byte angka2 = 6;
+        int hasil = (int) (angka1+angka2); //tipe data hasil yang tadinya byte diubah menjadi int supaya nilai hasil dapat tertampung
         
-        System.out.println("Hasil 1"+hasil);
+        System.out.println("Hasil : "+hasil);
     }
 }
